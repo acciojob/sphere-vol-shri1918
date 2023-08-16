@@ -1,9 +1,7 @@
-// Function to calculate the volume of a sphere
 function volume_sphere(radius) {
     return (4 / 3) * Math.PI * Math.pow(radius, 3);
 }
 
-// Function to update the volume field with calculated volume
 function calculateVolume() {
     var radiusInput = document.getElementById("radius");
     var volumeInput = document.getElementById("volume");
